@@ -50,3 +50,7 @@ Abstração:
   Ao tratarmos de abstração estamos falando em simplificação:
   - A abstração oferece uma interface (implementação) simples aos clientes, por meio da qual eles podem interagir com os elementos do programa e utilizar os métodos que foram definidos
   - Abstraindo (simplificando) a complexidade do programa os clentes não precisam conhecer as implementações internas, bastando apenas executa-las
+
+Composição:
+  - A composição nos ajuda a combinar objetos ou classes em estruturas de dados ou implementações mais complexas;
+  - Na composição, um objeto é usado para chamar/executar métodos de outras classes, disponibilizando assim, as funcionalidades básicas sem o uso de herança
