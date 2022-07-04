@@ -17,3 +17,36 @@ Objetos:
   Exemplo:
     - Pessoa é uma entidade e Carro também é uma entidade;
     - Pessoa dirige Carro para se deslocar de um lugar para outro;
+
+
+Principais components da POO:
+  - Encapsulamento;
+  - Polimorfismo;
+  - Herança;
+  - Abstração;
+  - Composição;
+
+Encapsulamento:
+  Quando falamos de encapsulamento queremos dizer que:
+    - O comportamento de um ojeto permanece oculto para o mundo externo, ou os objetos mantêm suas informações de estado (atributos) como privadas
+    - Os clientes não podem alterar o estado interno dos ojetos atuando diretamente em seus atributos; em vez disso estas altereções devem ser realizadas através dos médotos;
+    - Em Python, o conceito de encapsulamento não é implícioto pois não existem palavas reservadas como public, private e protected necessárias para tratar este conceito,
+    entretanto, por convenção "tornamos" a acessibilidade privada usando o prefixo __ (dunder / duplo underline) no nome do atributo ou método
+
+Polimorfismo:
+  O polimorfismo pode ser de dois tipos:
+    - Um ojeto oferece diferents implementações de um método de acordo com o s parâmetros de entrada;
+    - A mesma interface (implementação) pode ser usada por objetos de tipos diferentes
+
+Herança:
+  Usamos Herança para darmos mais flexibilidade às nossas classes e o poder de reutilização, além de:
+  - A herança indica que uma classe deriva (extende) sua funcionalidade da classe-pai;
+  - A herança permite que reutilizamos características e funcionalidades definidas na classe-pai;
+  - A herança cira hierarquias por meio d erelacionamento entre objetos de diferentes classes;
+
+  Em Python, diferente de outras linguagens, há suporte para herança múltipla, ou seja, podemos herdar de várias classes.
+
+Abstração:
+  Ao tratarmos de abstração estamos falando em simplificação:
+  - A abstração oferece uma interface (implementação) simples aos clientes, por meio da qual eles podem interagir com os elementos do programa e utilizar os métodos que foram definidos
+  - Abstraindo (simplificando) a complexidade do programa os clentes não precisam conhecer as implementações internas, bastando apenas executa-las
