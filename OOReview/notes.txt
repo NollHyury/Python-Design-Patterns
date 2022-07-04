@@ -1,0 +1,19 @@
+O mundo da orientação apresenta o conceito de objetos que tem atributos e métodos com
+
+Estes métodos são responsáveis pela manipulação dos atributos
+
+
+Classes:
+  - Ajudam os devs a representar entidades do mundo real;
+  - Definem os objetos com atributos e comportamentos (métodos);
+  - Classes possuem construtores (método especial) que proporcionam o estado inicial para os objetos;
+  - Classes são como templates (modelos), portanto, podem ser facilmente reutilizadas;
+
+
+Objetos:
+  - Representam entidades no contexto da aplicação em desenvolvimento;
+  - Entidades interagem entre si para resolver problemas do mundo real;
+
+  Exemplo:
+    - Pessoa é uma entidade e Carro também é uma entidade;
+    - Pessoa dirige Carro para se deslocar de um lugar para outro;
