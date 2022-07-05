@@ -54,3 +54,81 @@ Abstração:
 Composição:
   - A composição nos ajuda a combinar objetos ou classes em estruturas de dados ou implementações mais complexas;
   - Na composição, um objeto é usado para chamar/executar métodos de outras classes, disponibilizando assim, as funcionalidades básicas sem o uso de herança
+
+
+Príncipios do Design de Software Orientado a Objetos
+
+Princípio do aberto/fechado:
+  Este principio determina que classes ou métodos devem estar abertos para extensão mas fechados para modificações.
+
+  Isso significa que ao desenvolver nossa aplicação deveremos escrever nossas classes e métodos de forma genérica,
+  de modo que sempre que sentirmos necessidade de estender o comportamento não precisaremos alterar a classe propriamente dia.
+
+  AO invés disso uma extenção simples da classe deverá ajudar a implementar o novo comportamento.
+
+
+Princípio da inversão de controle
+  Este Princípio determina que módulos de alto nível não devem ser dependentes de módulos de baixo nível, pois ambos devem ser dependentes de abstrações.
+  Os detalhes devem depender das abstrações e não o inverso.
+
+  Ou seja quaisquer dos módulos não devem ser altamento dependentes um do outro. Eles devem estar desacoplados com uma camada de abstração entre eles.
+
+  De forma simples, devmos evitar a dependência entre módulos, ou seja, eles devem ser independentes.
+
+  Desta forma a complexidade/rigidez do sistema diminui e fica mais fácil lidar com dependências entre os módulos.
+
+
+Princípio da segregação de interfaces
+  Este princípio determina que clientes não devem ser forçados a depender de interfaces que não utilizam.
+
+  Desta forma nós desenvolvedores, estaremos escrevendo boas interfaces escrevendo apenas métodos relacionados â funcionalidade para que não exista
+  nenhum método não relacionado à interface, de forma que a classe dependente da interface tenha que implementá-lo desnecessáriamente.
+
+  Por exemplo, uma interface Pizza não deveria ter um método chamado adiciona_frango() pois a classe PizzaVegana não deveria ser forçada a implementar este método.
+
+  As vantagens deste princípio são:
+    - Forçar os devs a escrever interfaces enxutas e a ter métodos que sejam específicos da interface;
+    - Ajuda você a não encher as interfaces com métodos indesejados.
+
+
+Princípio da responsabilidade única
+  Este princípio determina que uma classe deve ter apenas um motivo para mudar.
+
+  Segundo este princípio, quando desenvolvemos uma classe, ela deve cuidar bem de sua funcionalidade em particular.
+
+  Se uma classe estiver tratando de duas funcionalidade, será melhor dividi-la
+
+  Este princípio refere-se à funcionalidade como um motivo para mudança
+
+  A vantagem deste principio é fazer com que nossas classes sejam objetivas e enxutas.
+
+
+Princípio da substituição
+
+  Este princípio determina que classes derivadas devem ser capazes de subtituir totalmente as classes-pai
+
+  De forma simples, este princípio sugere que a classe derivada deve estar o mais próximo possível da classe-pai de modo que a classe derivada possa substituir
+  a classe-pai sem qualquer modificação no código.
+
+
+
+Padrões de criação:
+  - Funcionam com base no modo como os objetos poder ser criados;
+  - Isolam os detalhes da criação dos objetos;
+  - O código é independente do tipo de objeto a ser criado;
+
+  Um exemplo deste padrão é o Singleton
+
+Padrões estruturais
+  - Determinam o design da estrutura de objetos e classes;
+  - O foco está em simplificar a estrutura e identificar o relacionamento entre classes e objetos;
+  - São centrados em herança e composição de classes;
+
+  Um exemplo deste padrão estrutural é o padrão Adapter;
+
+
+Padrões comportamentais
+  - Se preocupam com a interação entre os objetos e suas responsabilidades;
+  - Os objetos devem ser capazes de interagir e , mesmo assim, devem ter baixo acoplamento;
+
+  Um exemplo deste padrão comportamental é o padrão Observer.
